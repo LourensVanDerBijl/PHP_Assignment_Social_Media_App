@@ -1,0 +1,267 @@
+body {
+    background-color: #b3b3b3;
+}
+
+.top-nav-bar {
+    width: 100%;
+    height: 45px;
+    background-color: #20aae5;
+    border-bottom: 0.25em solid #1894ca;
+    border-top: 0.25em solid #1894ca;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: fixed;
+    display: inline-flex;
+    z-index: 10;
+}
+
+.logo {
+    background-color: #20aae5;
+}
+
+nav {
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+}
+
+.icons:hover {
+    background-color: #011bad7c;
+    color: #011bad7c;
+}
+
+nav a {
+    position: relative;
+    color: #20aae5;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.user {
+    color: black;
+    padding-right: 30px;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.user_pic {
+    padding-top: 100px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+
+.user-column {
+    border: 5px solid black;
+    margin: 2px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-post {
+    float: right;
+    border: 2px solid black;
+    box-shadow: 2px rgb(66, 66, 66);
+    height: 260px;
+    padding: 15px;
+    width: 680px;
+    z-index: -1;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.post_tarea {
+    width: 540px;
+    height: 200px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #20aae5;
+    font-size: 18px;
+}
+
+.post_tarea:focus {
+    outline-color: #0300b4;
+    background-color: #04adf5a4;
+}
+
+.post_button {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: bolder;
+    border: 3px solid blue;
+    background-color: #20aae5;
+    color: #0300b4;
+}
+
+.the_posts {
+    text-align: center;
+}
+
+.post_pic {
+    width: 10%;
+    border-top: 5px solid #b3b3b3;
+    border-bottom: 5px solid #b3b3b3;
+    background-color: #20aae5;
+}
+
+.post_user {
+    width: -10px;
+    border-top: 5px solid #b3b3b3;
+    border-bottom: 5px solid #b3b3b3;
+    background-color: #24b8f8;
+    width: 180px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #100e7c;
+}
+
+.post_text {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #20aae5;
+    border-top: 5px solid #b3b3b3;
+    border-bottom: 5px solid #b3b3b3;
+}
+
+.topnav {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 0px;
+    margin-right: 106px;
+    background: #20aae5;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.beingView {
+    background-color: #1894ca;
+    width: 100%;
+}
+
+.private_profile_heading {
+    text-align: center;
+    color: #0300b4;
+}
+
+.private_profile_details {
+    color: #061b94;
+    width: 400px;
+}
+
+.private_profile_mBox {
+    width: 100%;
+    height: 120px;
+    background-color: #62e0ffa9;
+}
+
+.inbox_heading {
+    font-size: 24px;
+    text-align: center;
+}
+
+.inbox_details {
+    color: #0300b4;
+    font-size: 12px;
+    width: 200px;
+    border-top: 2px solid rgb(0, 73, 0);
+    background-color: rgba(89, 241, 89, 0.589);
+}
+
+.inbox_message {
+    border-top: 2px solid rgb(0, 73, 0);
+    background-color: rgba(62, 247, 62, 0.589);
+    border-left: rgba(62, 247, 62, 0.589);
+}
+
+.inbox_pics {
+    border-top: 2px solid rgb(0, 73, 0);
+    border-right: 8px solid rgb(0, 73, 0);
+}
+
+.split {
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: rgba(62, 247, 62, 0.589);
+}
+
+.right {
+    right: 0;
+    background-color: rgb(4, 143, 207);
+}
+
+.outbox_details {
+    color: #0300b4;
+    font-size: 12px;
+    width: 200px;
+    border-top: 2px solid rgb(3, 74, 141);
+    background-color: rgba(6, 226, 197, 0.589);
+    border-left: 8px solid rgb(3, 74, 141);
+}
+
+.outbox_message {
+    border-top: 2px solid rgb(3, 74, 141);
+    background-color: rgba(6, 226, 197, 0.589);
+    border-left: rgb(3, 74, 141);
+}
+
+.outbox_pics {
+    border-top: 2px solid rgb(3, 74, 141);
+}
+
+.messageSent {
+    width: 350px;
+    height: 150px;
+    background-color: #01ecfd;
+    resize: none;
+}
+
+.update_User {
+    text-align: center;
+    background-color: #00b2be83;
+    position: fixed;
+    width: 450;
+    margin-top: 25px;
+}
+
+.form-update {
+    text-align: center;
+    width: 550px;
+    background-color: #0300b44f;
+    margin-left: 350px;
+}
+
+.updateInfo {
+    margin-left: 30px;
+}
+
+.personal_info {
+    background-color: #01ecfd;
+}
+
+.changelink {
+    font-weight: 400;
+    color: rgb(37, 0, 250);
+}
